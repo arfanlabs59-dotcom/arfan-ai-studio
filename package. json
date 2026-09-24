@@ -1,6 +1,0 @@
-{
-  "name": "arfan-ai-studio",
-  "dependencies": {
-    "telegraf": "^4.15.0"
-  }
-}
