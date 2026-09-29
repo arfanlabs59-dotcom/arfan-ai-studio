@@ -27,3 +27,6 @@ This pack is the complete application architecture and hardened database contrac
 3. Deploy the `/api` functions.
 4. Configure Telegram webhook with secret token.
 5. Run tests/QA checklist.
+
+## Final production gate
+The repository contains the backend architecture and hardened database layer, but it is not truthful to call provider integrations or live payment verification production-ready until real credentials are installed and end-to-end tests pass. Current provider documentation confirms APIs exist for OpenAI, Leonardo, Gamma, Runway, ElevenLabs, remove.bg, Ideogram, Otter (Enterprise public API), ChatPDF, and Upscale.media; access/plan requirements vary by provider. Do not commit secrets.
